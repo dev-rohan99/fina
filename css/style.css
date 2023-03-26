@@ -1,0 +1,267 @@
+/* =====================================
+ALL DESIGN START 
+===================================== */
+
+* { margin: 0px; padding: 0px; }
+html, body{scroll-behavior:smooth;}
+
+
+/* =====================================
+FIRST SECTION DESIGN START 
+===================================== */
+div.mobile_menu{display: none;}
+
+#firstSection { padding-top: 15px; }
+div.allBlock { width: 1150px; margin: auto; overflow: hidden; border-bottom: 2px solid rgba(128, 128, 128, 0.28); padding-bottom: 14px; }
+img { max-width: 100%; }
+.imageLogo { width: 148px; float: left; }
+div.spanBlock { width: 200px; float: right; position: relative; right: 250px; top: 36px; }
+div.spanBlock span.mainSpan { background: rgb(232, 232, 232); padding: 9px; border-radius: 6px; }
+div.spanBlock span.mainSpan span i { margin-right: 5px; }
+div.spanBlock span.mainSpan span { display: inline-block; color: rgba(49, 177, 49, 0.86); padding-right: 11px; margin-right: 8px; border-right: 1px solid rgba(0, 0, 0, 0.54); }
+div.spanBlock span.mainSpan span:last-child { margin-right: 0px; border-right: 0px solid rgba(0, 0, 0, 0.54); }
+div.numberBlock { width: 255px; float: right; position: relative; left: 230px; top: 26px; }
+div.numberBlock h1 { font-size: 33px; color: rgba(179, 179, 179, 0.81); font-family: initial; }
+div.allBlock2 { width: 1150px; margin: auto; overflow: hidden; }
+div.ulBlock { width: 710px; float: left; }
+ul.ulList { list-style: none; font-family: arial; margin-bottom: 0px;}
+ ul.ulList li.subLi { display: inline-block; padding: 32px 14px; }
+ul.ulList li.subLi a.subAnkor { text-decoration: none; font-size: 14px; font-weight: 900; color: rgb(76, 72, 72); transition: all 0.3s ease 0s; }
+ul.ulList li.subLi:hover a.subAnkor { color: rgb(78, 169, 78); }
+ul.ulList li.subLi:hover div#mainSubBlock { opacity: 1; transform: scale(1); }
+div#mainSubBlock { width: 412px; position: absolute; bottom: 161px; top: 204px; left: 436px; background: rgb(45, 43, 43); padding: 18px 0px; z-index: 100; color: white; transform: scale(0);transition: all 0.4s; overflow: hidden;}
+div.subBlock { width: 180px; display: inline-block; margin-left: 22px; border-right: 1px solid rgb(74, 72, 72); }
+h3.pageLeft { font-family: Muli, sans-serif; font-size: 15px; margin-bottom: 12px; margin-left: 6px; font-weight: 700; }
+
+ul.subMenu { font-family: Muli, sans-serif; list-style: none; }
+ul.subMenu li { padding: 8px; cursor: pointer; }
+ul.subMenu li:hover a { color: white; }
+ul.subMenu li a { text-decoration: none; color: rgb(173, 173, 173); font-size: 14px; }
+div.allBlock2 div.buttonBlock { width: 289px; float: right; padding: 19px; font-family: arial; font-size: 13px; }
+div.allBlock2 div.buttonBlock a { text-decoration: none; display: inline-block; float: right; margin-left: 12px; font-weight: bold; color: rgb(41, 39, 39); }
+div.allBlock2 div.buttonBlock a#firstA { padding: 15px 19px; background: rgb(41, 183, 41); color: white; border-radius: 6px; }
+div.allBlock2 div.buttonBlock a#firstA:hover { background: rgb(46, 206, 46); }
+div.allBlock2 div.buttonBlock a#secondA { padding: 13px 17px; border: 2px solid rgb(78, 169, 78); border-radius: 6px; color: rgb(65, 218, 65); }
+
+
+/* =====================================
+FIRST SECTION DESIGN END 
+===================================== */
+
+
+/* =====================================
+SECOND SECTION DESIGN START 
+===================================== */
+
+
+#secondSection { background-image: url("../slider.jpg"); width: 100%; background-repeat: no-repeat; background-size: cover; padding: 140px 0px; }
+div.contentBlock { width: 404px; margin: auto;margin-bottom: 118px;
+    text-align: left; }
+div.contentBlock h1.h1Title { font-family: arial; font-size: 40px; font-weight: 600; color: white; line-height: 42px; margin-bottom: 19px; }
+div.contentBlock p.paraTitle { font-family: arial; color: white; font-size: 24px; font-weight: 200; line-height: 30px; }
+ div.contentBlock p.paraTitle2 { font-family: arial; font-size: 11px; color: white; background: rgb(59, 187, 59); font-weight: 600; width: 283px; text-align: center; padding: 2px 7px; border-radius: 82px; margin-top: 23px; }
+
+button.btn{padding: 6px 27px;margin-bottom: 4px;margin-left: 10px;}
+.ContentBlockTwo {
+    margin-bottom: 88px;
+    width: 100%;
+}
+
+h1.hOneContent {
+    font-size: 43px;
+    width: 637px;
+    margin: auto;
+}
+
+p.paraContentSlider {
+    font-size: 24px;
+    width: 547px;
+    margin: auto;
+    text-shadow: 2px 2px 0px #b2aeae6b;
+    margin-top: 25px;
+    margin-bottom: 30px;}
+
+p.paraTwo{margin-bottom: 30px;}
+
+a.buttonLink{padding: 11px 20px;background: rgb(2, 175, 138);color: white;border-radius: 10px;font-size: 11px;font-weight: bold;margin-right: 18px;}
+
+a.buttonLink:hover{color:green;}
+a.buttonLink:first-child{}
+a.buttonLink:last-child{background: #292727;}
+
+/* =====================================
+SECOND SECTION DESIGN END 
+===================================== */
+
+/* =====================================
+THIRD SECTION DESIGN START 
+===================================== */
+
+#thirdSection { background: rgba(234, 234, 234, 0.46); padding-top: 40px; }
+div#grayBlock { width: 1078px; margin: auto; padding: 35px 9px 0px; background: white; overflow: hidden; box-shadow: rgba(128, 128, 128, 0.75) 0px 0px 7px 0px; }
+h2#title { font-size: 31px; font-family: arial; font-weight: 600; text-align: center; margin-bottom: 15px; color: rgb(117, 114, 114); }
+div#borderBottomBlock { border-bottom: 3px solid rgba(128, 128, 128, 0.39); width: 1023px; margin: auto; }
+div.classicBlock { width: 244px; text-align: center; display: inline-block; margin-left: 14px; margin-bottom: 63px; }
+div.classicBlock img { }
+ div.classicBlock h4 { font-family: arial; color: rgb(132, 123, 123); margin-bottom: 19px; margin-top: 20px; font-size: 15px; }
+div.classicBlock p { color: rgb(152, 152, 152); font-size: 17px; line-height: 25px; }
+div#bottomBlock { width: 499px; float: left; margin-top: 33px; }
+h4.rateUs { color: gray; width: 196px; margin-left: 27px; font-weight: 600; font-size: 16px; font-family: arial; padding: 11px 0px; }
+h4.rateUs span { float: right; font-weight: 500; margin-right: 6px; font-size: 18px; padding: 4px 0px; }
+ul#rateList { list-style: none; width: 83px; position: relative; left: 91px; bottom: 19px; }
+ul#rateList li { display: inline-block; }
+ul#rateList li i { color: rgb(171, 166, 166); font-size: 11px; }
+img.brrons { position: relative; left: 240px; bottom: 85px; width: 230px; }
+div#bottomBlock2 { width: 500px; float: right; margin-top: 33px; }
+.mainRateBlock {
+    width: 228px;
+}
+
+/* =====================================
+THIRD SECTION DESIGN END 
+===================================== */
+
+/* =====================================
+FOURTH SECTION DESIGN START 
+===================================== */
+
+#fourthSection { padding: 0px; background-image: url("../Section Block.png"); background-repeat: no-repeat; background-size: cover; }
+div.mainDivTitleBlock { width: 1100px; margin: auto; padding-bottom: 56px; }
+div.divTitleBlock { width: 642px; margin-top: 46px; }
+div.divTitleBlock h1#title { font-family: arial; font-size: 33px; line-height: 47px;font-weight: 800; }
+div.divTitleBlock h2#title2 { font-family: arial; font-weight: 100; color: rgb(78, 72, 72); margin-bottom: 25px;font-size: 23px;color: #1a1a1a; }
+div.divTitleBlock p#para { color: gray; font-size: 18px; line-height: 28px; margin-bottom: 37px; }
+div.mainBlockTitle2 { width: 698px; position: relative; left: -4px; }
+div.mainBlockTitle2 div.singleBlock { width: 164px;height:203px; background: rgb(26, 183, 154); padding: 21px 16px 23px 22px; display: inline-block; margin: 7px 5px; border-radius: 3px; }
+div.mainBlockTitle2 div.singleBlock:nth-child(2) { background: rgb(84, 157, 232); }
+div.mainBlockTitle2 div.singleBlock:nth-child(3) { background: rgb(101, 118, 239); }
+div.mainBlockTitle2 div.singleBlock:nth-child(4) { background: rgb(77, 78, 78); }
+div.mainBlockTitle2 div.singleBlock:nth-child(5) { background: rgb(164, 165, 167); }
+div.mainBlockTitle2 div.singleBlock:last-child { background: rgb(228, 139, 75); }
+div.mainBlockTitle2 div.singleBlock h3 { font-family: arial; font-size: 15px; font-weight: 800; color: white; margin-bottom: 14px; }
+div.mainBlockTitle2 div.singleBlock p { color: white; font-size: 14px; line-height: 21px; }
+div.mainBlockTitle2 div.singleBlock div#aDemo { float: right; margin-top: 10px; }
+div.mainBlockTitle2 div.singleBlock div#aDemo a { text-decoration: none; color: white; }
+div.mainBlockTitle2 div.singleBlock div#aDemo:hover a { color: rgb(26, 183, 154); }
+
+/* =====================================
+FOURTH SECTION DESIGN END 
+===================================== */
+
+/* =====================================
+FIFTH SECTION DESIGN START 
+===================================== */
+
+div.fifthBlock { background-image: url("../position-fixed.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
+div.background_image_block { width: 1100px; margin: auto; overflow: hidden; }
+h2#title_under_block { font-size: 33px; text-align: center; padding: 38px 0px; margin: 10px; }
+div.iconList { width: 343px; padding: 20px 0px; text-align: center; }
+div.iconList a.iconLinkList { text-decoration: none; padding: 15px 21px; }
+div.iconList a.iconLinkList i { font-size: 42px; color: rgb(26, 26, 26); }
+div.single_under_block { width: 345px; background: white; padding: 37px 37px 104px; margin-top: 22px; float: left; }
+div.single_under_block h3#single_title { font-size: 14px;font-weight: 700; color: rgb(12, 219, 178); }
+div.single_under_block p.top_para { font-size: 17px; color: gray; margin-top: 19px; }
+div.single_under_block p.bottom_para { margin-top: 21px; color: gray; font-size: 16px; margin-bottom: 40px; }
+div.single_under_block a.link_button { text-decoration: none; color: white; background: rgb(12, 219, 178); padding: 15px; font-size: 13px; font-weight: 900; border-radius: 8px; }
+div.image_under_block { width: 607px; float: right; }
+div.image_under_block img { width: 100%; }
+
+/* =====================================
+FIFTH SECTION DESIGN END 
+===================================== */
+
+/* =====================================
+INFORMATION BLOCK DESIGN START 
+===================================== */
+
+div.main_knowlage_block { background: rgb(240, 238, 238); padding-bottom: 35px; }
+div.knowlage_block { width: 1100px; margin: auto; }
+h1.knowlage_title { text-align: center; font-size: 35px; color: rgb(81, 75, 75); padding: 41px 0px; }
+div.knowlage_single_block:last-child { margin-right: 0px; }
+div.knowlage_single_block { width: 347px; display: inline-block; background: white; font-family: Arial, Helvetica, sans-serif; padding: 20px; margin-right: 25px; margin-bottom: 25px; box-shadow: grey -1px 1px 4px 1px; cursor: pointer; }
+div.knowlage_single_block:nth-child(4) { margin-right: 0px; }
+div#difault_design { background: rgba(255, 0, 0, 0.85); }
+div.knowlage_single_block div.left_icon_block { width: 60px; float: left; }
+div.knowlage_single_block div.left_icon_block i { font-size: 34px; color: rgb(3, 184, 3); }
+div.knowlage_single_block div.left_icon_block i.fa-youtube { color: white; }
+div.knowlage_single_block div.right_block { width: 247px; float: right; }
+div.knowlage_single_block div.right_block h3.single_title { font-size: 15px; color: rgb(108, 106, 106); font-weight: bold;}
+div.knowlage_single_block div.right_block h3.difault_color { color: white; }
+div.knowlage_single_block div.right_block p.single_paragraph { color: gray; margin-top: 11px; font-size: 13px; line-height: 22px; }
+div.knowlage_single_block div.right_block p.para_difault_color { color: white; }
+
+
+/* =====================================
+INFORMATION BLOCK DESIGN END 
+===================================== */
+
+/* =====================================
+FORM BLOCK DESIGN START 
+===================================== */
+div.main_form_block {background-image: url("../content_background3.png");background-repeat: no-repeat;background-size: cover;padding: 16px 0px;}
+div.form_block {width: 1100px;margin: auto;padding-bottom: 25px;}
+div.information_form_block { }
+div.information_form_block h1.form_title { font-size: 38px; color: rgb(85, 80, 80); padding: 15px 0px; }
+div.information_form_block p.form_para_title { color: gray; font-size: 21px; padding-bottom: 19px; }
+div.information_form_block form { }
+div.information_form_block form input { padding: 11px; margin-right: 18px; border: 1px solid rgb(198, 195, 195); border-radius: 6px; color: gray; outline: none; font-size: 15px; }
+div.information_form_block form input#input_button {background: rgb(22, 201, 114);color: white;font-weight: 800;font-size: 11px;padding: 13px;border: none;}
+
+div.information_form_block form input:hover{border: 1px solid rgb(67, 218, 142);}
+div.information_form_block form input#input_button:hover{background:rgb(33, 228, 134) ;}
+
+/* =====================================
+FORM BLOCK DESIGN END 
+===================================== */
+
+/* =====================================
+FOOTER BLOCK DESIGN START 
+===================================== */
+
+footer{background: #37474f;}
+div.footer_block{width: 1100px;margin: auto;overflow: hidden;padding: 62px 0px;}
+div.single_footer_block{width: 259px;float: left;}
+/* div.single_footer_block:nth-child(1){float: right;}
+div.single_footer_block:last-child{float: left;} */
+
+
+div.single_footer_block ul.footer_main_link_list{list-style: none;width: 214px;}
+div.single_footer_block ul.footer_main_link_list li.footer_link_list{
+    padding: 5px 0px;
+}
+div.single_footer_block ul.footer_main_link_list li.footer_link_list:hover a.footer_link{color: rgb(54, 218, 54);text-decoration: underline;cursor: pointer;}
+div.single_footer_block ul.footer_main_link_list li.footer_link_list a.footer_link{text-decoration: none;color: white;}
+
+div.footer_icon_list_block{width: 318px;float: right;}
+div.footer_icon_list_block ul.main_icon_list{list-style: none;float: right;padding: 12px 0px;}
+div.footer_icon_list_block ul.main_icon_list li.icon_list{display: inline-block;}
+
+div.footer_icon_list_block ul.main_icon_list li.icon_list a.icon_link{text-decoration: none;padding: 13px 13px 10px 13px;background: #eaeaea;margin-right: 13px;transition: all 0.3s;}
+div.footer_icon_list_block ul.main_icon_list li.icon_list:hover a.icon_link{opacity: 0.6;}
+
+div.footer_icon_list_block ul.main_icon_list li.icon_list a.icon_link i{color: rgba(55, 71, 79, 1);font-size: 19px;padding: -6px;}
+
+div.google_play_and_app_store_block{
+    margin-top: 75px;
+}
+div.google_play_and_app_store_block div.app_store_link{
+    float: right;
+}
+div.google_play_and_app_store_block div.app_store_link img{
+    margin-right: 8px;
+}
+
+
+div.last_information{width: 1100px;margin: auto;padding: 33px 0px;background: #37474f ;}
+p.paraInfo{font-size: 15px;color: rgba(128, 128, 128, 0.863);}
+
+
+/* =====================================
+FOOTER BLOCK DESIGN END 
+===================================== */
+
+
+/* =====================================
+ALL DESIGN END 
+===================================== */
+

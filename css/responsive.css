@@ -1,0 +1,357 @@
+@media only screen and (min-width:992px) and (max-width:1169px){
+
+/* =======================================
+TOP MENU RESPONSIVE DESIGN START 
+======================================= */
+
+#firstSection{width: 100%;}
+div.allBlock{width: 100%;}
+
+
+/* =======================================
+TOP MENU RESPONSIVE DESIGN END 
+======================================= */
+
+
+/* =======================================
+NAV MENU LINK RESPONSIVE DESIGN START 
+======================================= */
+
+div.allBlock2{width: 100%;display: none;}
+
+div.hamburger{overflow: hidden;background: rgba(77, 228, 220, 0.671);z-index: 1000;}
+span.bar_icon_link{color: white;font-size: 60px;float: right;padding: 0px 27px;transition: all 0.4s;cursor: pointer;}
+span.bar_icon_link:hover{color: red;}
+
+div.mobile_menu{display: block;width: 100%;overflow: hidden;position: sticky;top: 0;z-index: 1000;}
+div#mainSubBlock{display: block;}
+
+
+div.ulBlockMain{width: 100%;background: rgb(77, 228, 220);clip-path: circle(100px at 90% -25%);height: 85vh;-webkit-clip-path:circle(100px at 90% -25%);position: fixed;z-index: 999;transition: all 2s ease-out;overflow-x: hidden;overflow-y: scroll;}
+
+div.ulBlockMain.open{z-index: 999;clip-path: circle(10000px at 90% -25%);-webkit-clip-path:circle(10000px at 90% -25%);background: rgb(77, 228, 220);}
+
+ul.ulListFixed{margin-left: 50px;width:100%;list-style: none;font-family: arial;}
+
+
+.hamburger {
+    display: block;
+}
+
+div.ulBlockMain ul.ulListFixed li.subLiFixed {
+    display: list-item;
+    padding: 32px 14px;
+    margin-left: 20px;
+}
+
+
+div#mainSubBlockFixed{width: ;background: transparent;transform:scale(1);padding-left: 50px;margin-top: 60px;}
+h3.pageLeftTitle {color: wheat; font-family: Muli, sans-serif; font-size: 15px; margin-bottom: 12px; margin-left: 6px; font-weight: 700; }
+
+div.subBlockOne{float:none;border-right:none;}
+
+h3.pageLeft{color: rgb(75, 75, 72);font-size: 17px;}
+ul.subMenu li a {color: rgb(61, 59, 59);}
+ul.subMenu li:hover a { color: rgb(243, 44, 44); }
+
+div.ulBlockMain ul.ulListFixed li.subLiFixed a.subAnkorLink { text-decoration: none; font-size: 14px; font-weight: 900; color: rgb(76, 72, 72); transition: all 0.3s ease 0s; }
+div.ulBlockMain ul.ulListFixed li.subLiFixed:hover a.subAnkorLink { color: rgb(78, 169, 78); }
+
+ul.subMenuList { font-family: Muli, sans-serif; list-style: none; }
+ul.subMenuList li { padding: 8px; cursor: pointer; }
+ul.subMenuList li:hover a { color: white; }
+ul.subMenuList li a { text-decoration: none; color:green; font-size: 14px; }
+
+
+/* =======================================
+NAV MENU LINK RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+THIRD SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+#thirdSection {width: 100%;}
+div#grayBlock{width: 90%;margin: auto;}
+h2#title{text-align: center;}
+div.classicBlock{margin:auto;width: 50%;}
+div.classicBlock:first-child{float: left;}
+div.classicBlock:nth-child(2){float: right;}
+div.classicBlock:nth-child(3){float: left;}
+div.classicBlock:nth-child(4){float: left;}
+
+div#borderBottomBlock{width: 100%;}
+
+div#bottomBlock{width: 100%;float: none;}
+div#bottomBlock2 {width: 100%;float: none;}
+div.mainRateBlock{width: 252px;margin: auto;text-align: center;}
+div.image_position{text-align: center;margin-bottom: 20px;}
+img.brrons{position: unset;width: 70%;}
+
+/* =======================================
+THIRD SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FOURTH SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+#fourthSection {width: 100%;background-position: center center;}
+div.mainDivTitleBlock{width: 90%;margin: auto;}
+
+
+/* =======================================
+FOURTH SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FIFTH SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+div.fifthBlock{width: 100%;}
+div.background_image_block{width: 90%;margin: auto;}
+div.iconList{width: 100%;}
+div.single_under_block {width: 100%;float: none;text-align: center;}
+div.image_under_block{width: 100%;margin-top: 35px;float: none;}
+
+/* =======================================
+FIFTH SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+div.main_knowlage_block{width: 100%;}
+div.knowlage_block{width: 90%;margin: auto;}
+div.knowlage_single_block{width: 40%;margin-right: 0px;}
+div.knowlage_single_block:first-child{float: left;}
+div.knowlage_single_block:nth-child(2){float: right;}
+div.knowlage_single_block:nth-child(3){float: left;}
+div.knowlage_single_block:nth-child(4){float: right;}
+div.knowlage_single_block:nth-child(5){float: left;}
+div.knowlage_single_block:last-child{float: right;}
+div.knowlage_single_block div.right_block{}
+
+/* =======================================
+INFORMATION SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FORM SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+div.main_form_block{width: 100%;}
+div.form_block{width: 90%;margin: auto;}
+
+/* =======================================
+FORM SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FOOTER SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+footer{width: 100%;}
+div.footer_block{width: 90%;margin: auto;}
+
+
+div.single_footer_block{float: left;width: 33.333333%;text-align: center;margin-bottom: 30px;border-bottom: 3px solid gray;}
+div.single_footer_block ul.footer_main_link_list{width: 100%;}
+
+div.footer_icon_list_block{float: none;width: 100%;text-align: center;}
+div.footer_icon_list_block ul.main_icon_list{float: none;width: 100%;overflow: hidden;}
+
+div.google_play_and_app_store_block{width: 100%;margin-top: 30px;}
+div.google_play_and_app_store_block div.app_store_link{width: 100%;text-align: center;}
+
+div.last_information{width: 90%;margin: auto;text-align: center;}
+
+/* =======================================
+FOOTER SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+
+
+}
+
+
+@media only screen and (min-width:200px) and (max-width:991px){
+/* =======================================
+TOP MENU RESPONSIVE DESIGN START 
+======================================= */
+
+#firstSection{width: 100%;}
+div.allBlock{width: 100%;}
+.imageLogo{float: none;margin: auto;}
+div.spanBlock{float: none;position: unset;margin:auto;width: 190px;margin-top: 7px;}
+div.numberBlock{float: none;position: unset;margin: auto;width: 216px;margin-top: 15px;}
+
+/* =======================================
+TOP MENU RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+NAV MENU LINK RESPONSIVE DESIGN START 
+======================================= */
+
+div.allBlock2{width: 100%;display: none;}
+
+div.hamburger{overflow: hidden;background: rgba(77, 228, 220, 0.767);z-index: 1000;}
+span.bar_icon_link{color: white;font-size: 60px;float: right;padding: 0px 27px;transition: all 0.4s;cursor: pointer;}
+span.bar_icon_link:hover{color: red;}
+
+div.mobile_menu{display: block;width: 100%;overflow: hidden;position: sticky;top: 0;z-index: 1000;}
+div#mainSubBlock{display: block;}
+
+
+div.ulBlockMain{width: 100%;background: rgb(77, 228, 220);clip-path: circle(100px at 90% -25%);height: 90vh;-webkit-clip-path:circle(100px at 90% -25%);position: fixed;z-index: 999;transition: all 1s ease-out;overflow-x: hidden;overflow-y: scroll;}
+
+div.ulBlockMain.open{z-index: 999;clip-path: circle(100px at 90% -25%);-webkit-clip-path:circle(1381px at 90% -25%);background: rgb(77, 228, 220);}
+
+ul.ulListFixed{margin-left: 50px;width:100%;list-style: none;font-family: arial;}
+
+
+.hamburger {
+    display: block;
+}
+
+div.ulBlockMain ul.ulListFixed li.subLiFixed {
+    display: list-item;
+    padding: 32px 14px;
+    margin-left: 20px;
+}
+
+
+div#mainSubBlockFixed{width: ;background: transparent;transform:scale(1);padding-left: 50px;margin-top: 50px;}
+h3.pageLeftTitle { color:wheat;font-family: Muli, sans-serif; font-size: 15px; margin-bottom: 12px; margin-left: 6px; font-weight: 700; }
+
+div.subBlockOne{float:none;border-right:none;}
+
+h3.pageLeft{color: rgb(75, 75, 72);font-size: 17px;}
+ul.subMenu li a {color: rgb(61, 59, 59);}
+ul.subMenu li:hover a { color: rgb(243, 44, 44); }
+
+div.ulBlockMain ul.ulListFixed li.subLiFixed a.subAnkorLink { text-decoration: none; font-size: 14px; font-weight: 900; color: rgb(76, 72, 72); transition: all 0.3s ease 0s; }
+div.ulBlockMain ul.ulListFixed li.subLiFixed:hover a.subAnkorLink { color: rgb(78, 169, 78); }
+
+ul.subMenuList { font-family: Muli, sans-serif; list-style: none; }
+ul.subMenuList li { padding: 8px; cursor: pointer; }
+ul.subMenuList li:hover a { color: white; }
+ul.subMenuList li a { text-decoration: none; color:green; font-size: 14px; }
+
+
+/* =======================================
+NAV MENU LINK RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+SECOND SECTION RESPONSIVE DESIGN END 
+======================================= */
+div.contentBlock{width: 90%;margin: auto;text-align: center;margin-bottom: 65px;}
+div.contentBlock h1.h1Title{width: 100%;}
+div.contentBlock p.paraTitle{width: 100%;}
+div.contentBlock p.paraTitle2{width: 100%;}
+a.buttonLink{display: block;}
+
+.ContentBlockTwo {width: 90%;margin: auto;margin-bottom: 50px;}
+h1.hOneContent {width: 100%;}
+p.paraContentSlider{width: 100%;}
+
+/* =======================================
+SECOND SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+
+/* =======================================
+THIRD SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+#thirdSection {width: 100%;}
+div#grayBlock{width: 90%;margin: auto;}
+h2#title{text-align: center;}
+div.classicBlock{margin:auto;width: 100%;margin-bottom: 17px;}
+div#bottomBlock{width: 100%;float: none;}
+div#bottomBlock2 {width: 100%;float: none;}
+div.mainRateBlock{width: 252px;margin: auto;text-align: center;}
+div.image_position{text-align: center;margin-bottom: 20px;}
+img.brrons{position: unset;width: 90%;}
+
+/* =======================================
+THIRD SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FOURTH SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+#fourthSection {width: 100%;background-position: center center;}
+div.mainDivTitleBlock{width: 90%;margin: auto;}
+div.divTitleBlock{width: 100%;}
+div.mainBlockTitle2 {width: 100%;}
+div.mainBlockTitle2 div.singleBlock {width: 100%;}
+
+/* =======================================
+FOURTH SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FIFTH SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+div.fifthBlock{width: 100%;}
+div.background_image_block{width: 90%;margin: auto;}
+div.iconList{width: 100%;}
+div.single_under_block {width: 100%;float: none;}
+div.image_under_block{width: 100%;margin-top: 35px;float: none;}
+
+/* =======================================
+FIFTH SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+INFORMATION SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+div.main_knowlage_block{width: 100%;}
+div.knowlage_block{width: 90%;margin: auto;}
+div.knowlage_single_block{width: 100%;margin-right: 0px;}
+div.knowlage_single_block div.right_block{width: 75%;}
+
+/* =======================================
+INFORMATION SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FORM SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+div.main_form_block{width: 100%;}
+div.form_block{width: 90%;margin: auto;}
+div.information_form_block form {width: 100%;}
+div.information_form_block form input{width: 100%;margin-bottom: 17px;}
+div.information_form_block form input#input_button{margin-bottom: 0px;}
+
+/* =======================================
+FORM SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+/* =======================================
+FOOTER SECTION RESPONSIVE DESIGN START 
+======================================= */
+
+footer{width: 100%;}
+div.footer_block{width: 90%;margin: auto;}
+div.single_footer_block{float: none;width: 100%;text-align: center;margin-bottom: 30px;border-bottom: 3px solid gray;}
+div.single_footer_block ul.footer_main_link_list{width: 100%;}
+div.footer_icon_list_block{float: none;width: 100%;text-align: center;}
+div.footer_icon_list_block ul.main_icon_list{float: none;}
+div.google_play_and_app_store_block{width: 100%;margin-top: 30px;}
+div.google_play_and_app_store_block div.app_store_link{width: 100%;text-align: center;}
+
+div.last_information{width: 90%;margin: auto;text-align: center;}
+
+/* =======================================
+FOOTER SECTION RESPONSIVE DESIGN END 
+======================================= */
+
+
+
+}
+
